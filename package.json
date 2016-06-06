@@ -41,6 +41,7 @@
   "homepage" : "https://bitbucket.org/cacadu/data-elevator-elasticsearch",
   "dependencies" : {
     "async": "^1.x",
+    "elasticsearch" : "^11.x",
     "data-elevator": "<2.0.0"
   },
   "engines": {

@@ -1,0 +1,145 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Help",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/elevator.js",
+			"stopOnEntry": false,
+			"args": ["help"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Init",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/elevator.js",
+			"stopOnEntry": false,
+			"args": ["init", "--type=MONGODB"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Create",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/elevator.js",
+			"stopOnEntry": false,
+			"args": ["create-floor"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Create title version",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/elevator.js",
+			"stopOnEntry": false,
+			"args": ["create-floor","--title=\"test conversie\"", "--version=1.0.1"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},		
+		{
+			"name": "Up",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/elevator.js",
+			"stopOnEntry": false,
+			"args": ["up", "-v"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Down",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/elevator.js",
+			"stopOnEntry": false,
+			"args": ["down", "--migrate-to=2"],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		},	
+		{
+			"name": "Test",
+			"type": "node",
+			"request": "launch",
+			"program": "${workspaceRoot}/test.js",
+			"stopOnEntry": false,
+			"args": [],
+			"cwd": "${workspaceRoot}",
+			"preLaunchTask": null,
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+			"sourceMaps": false,
+			"outDir": null
+		}
+	]
+}
