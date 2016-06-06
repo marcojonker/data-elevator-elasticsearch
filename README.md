@@ -41,16 +41,18 @@ node ./data-elevator/elevator down --floor=3
 ```
 # CONFIGURATION #
 
-* **levelControllerConfig.collectionName:** Name of the collection to store the migration level in
-* **levelControllerConfig.connectionOptions:** Connection options see [elasticsearch website](http://www.elasticsearch.com) 
-* **levelControllerConfig.connectionUrl:** Url for database connection
+* **levelControllerConfig.index:** Name of the index to store the migration level in
+* **levelControllerConfig.typeName:** Type name used store the migration level
+* **levelControllerConfig.connectionOptions:** Connection options [npm elasticsearch](https://www.npmjs.com/package/elasticsearch)
 
 ```
 var config = {
     levelControllerConfig: {
-       collectionName: "_data_elevator",
-       connectionOptions: null,
-       connectionUrl: null
+        index: null,
+        typeName: null,
+        connectionOptions: {
+            host: null
+        }
     }
 }
 ```
