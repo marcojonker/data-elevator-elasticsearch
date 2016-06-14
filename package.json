@@ -1,33 +1,38 @@
 {
   "name": "data-elevator-elasticsearch",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Flexible utility for managing migrations of elasticsearch data sources",
   "main": "elevator.js",
     "bin" : { 
     "data-elevator-elasticsearch" : "./bin/data-elevator.js" 
   },
-
   "keywords": [
     "migrate",
     "migration",
     "migrations",
     "migrate data",
+    "data migrate",
+    "migrate database",
+    "database migrate",
+    "database migration",
+    "database migrations",
+    "data migration",
+    "data migrations",
     "migrate elasticsearch",
     "elasticsearch migration",
     "elasticsearch migrate",
-    "database migration",
-    "data migration",
     "donwgrade",
     "upgrade",
     "elasticsearch",
     "data-elevator",
     "data-elevator-elasticsearch",
     "elevate data",
-    "data",
     "datasource",
-    "database",
-    "utility"
+    "database"
   ],
+   "scripts": {
+    "test": "node ./test/test.js"
+  },
   "bugs": "https://bitbucket.org/cacadu/data-elevator-elasticsearch/issues/",
   "license": "MIT",
   "author": "Marco Jonker",
@@ -38,7 +43,8 @@
     "CHANGELOG",
     "elevator.js",
     "lib",
-    "bin"
+    "bin",
+    "test"
   ],
   "repository" : { 
     "type" : "git",
@@ -48,7 +54,7 @@
   "dependencies" : {
     "async": "^1.x",
     "elasticsearch" : "^11.x",
-    "data-elevator": "<2.0.0"
+    "data-elevator": "^2.x"
   },
   "engines": {
     "node": ">=5.0.0"
