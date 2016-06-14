@@ -21,6 +21,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Fixes
 - callback issue in printing 
+- bugfix recreating elasticsearch client
 
 ## [1.1.0] - 2016-06-08
 ### Added
