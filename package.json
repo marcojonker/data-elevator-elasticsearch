@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-elasticsearch",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0",
   "description": "Flexible utility for managing migrations of elasticsearch data sources",
   "main": "elevator.js",
     "bin" : { 
@@ -25,6 +25,7 @@
     "upgrade",
     "elasticsearch",
     "data-elevator",
+    "data-elevator-elasticsearch",
     "elevate data",
     "datasource",
     "database"
