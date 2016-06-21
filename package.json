@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-elasticsearch",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Flexible utility for managing migrations of elasticsearch data sources",
   "main": "elevator.js",
     "bin" : { 
@@ -33,7 +33,7 @@
    "scripts": {
     "test": "node ./test/test.js"
   },
-  "bugs": "https://bitbucket.org/cacadu/data-elevator-elasticsearch/issues/",
+  "bugs": "https://github.com/marcojonker/data-elevator-elasticsearch/issues/",
   "license": "MIT",
   "author": "Marco Jonker",
   "files": [
@@ -48,9 +48,9 @@
   ],
   "repository" : { 
     "type" : "git",
-    "url" : "git@bitbucket.org:cacadu/data-elevator-elasticsearch.git"
+    "url" : "https://github.com/marcojonker/data-elevator-elasticsearch.git"
   },
-  "homepage" : "https://bitbucket.org/cacadu/data-elevator-elasticsearch",
+  "homepage" : "https://github.com/marcojonker/data-elevator-elasticsearch",
   "dependencies" : {
     "async": "^1.x",
     "elasticsearch" : "^11.x",
