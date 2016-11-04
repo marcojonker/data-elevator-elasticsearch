@@ -4,6 +4,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [2.1.0] - 2016-11-04
+### Updated
+- Tested with NodeJs 7
+- Dependency for elasticsearch
+- Depencency for async
+
 ## [2.0.0] - 2016-06-14
 ### Added
 - move command
