@@ -50,7 +50,7 @@
     "type" : "git",
     "url" : "https://github.com/marcojonker/data-elevator-elasticsearch.git"
   },
-  "homepage" : "http:/cacadu.nl/opensource",
+  "homepage" : "http://www.cacadu.nl/opensource",
   "dependencies" : {
     "async": "^2.x",
     "elasticsearch" : "^12.x",
