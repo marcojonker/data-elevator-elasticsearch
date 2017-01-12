@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-elasticsearch",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Flexible utility for managing migrations of elasticsearch data sources",
   "main": "elevator.js",
     "bin" : { 
@@ -50,7 +50,7 @@
     "type" : "git",
     "url" : "https://github.com/marcojonker/data-elevator-elasticsearch.git"
   },
-  "homepage" : "http:/cacadu.nl/opensource",
+  "homepage" : "http://www.cacadu.eu/opensource",
   "dependencies" : {
     "async": "^2.x",
     "elasticsearch" : "^12.x",
