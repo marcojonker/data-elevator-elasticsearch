@@ -12,7 +12,7 @@ npm install data-elevator-elasticsearch
 ```
 **STEP 2:** Construct a new data elevator for the project.
 ```
-node ./node-modules/data-elevator-elasticsearch construct
+node ./node_modules/data-elevator-elasticsearch construct
 ```
 **STEP 3:** Add a new migration.
 ```
