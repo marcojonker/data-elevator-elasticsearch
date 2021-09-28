@@ -4,6 +4,15 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [4.0.0] - 2021-09-27
+### Updated
+- Async library version
+- Elasticsearch library version
+- Data elevator version
+- Update unittests with mocha
+- Refactor code to es6
+- Eslint
+
 ## [2.1.1] - 2017-01-12
 ### Updated
 - Documentation fix

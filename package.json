@@ -1,10 +1,10 @@
 {
   "name": "data-elevator-elasticsearch",
-  "version": "2.1.1",
+  "version": "4.0.0-rc",
   "description": "Flexible utility for managing migrations of elasticsearch data sources",
   "main": "elevator.js",
-    "bin" : { 
-    "data-elevator-elasticsearch" : "./bin/data-elevator.js" 
+  "bin": {
+    "data-elevator-elasticsearch": "./bin/data-elevator.js"
   },
   "keywords": [
     "migrate",
@@ -30,8 +30,9 @@
     "datasource",
     "database"
   ],
-   "scripts": {
-    "test": "node ./test/test.js"
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "lint": "./node_modules/.bin/eslint ./lib"
   },
   "bugs": "https://github.com/marcojonker/data-elevator-elasticsearch/issues/",
   "license": "MIT",
@@ -46,17 +47,21 @@
     "bin",
     "test"
   ],
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/marcojonker/data-elevator-elasticsearch.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcojonker/data-elevator-elasticsearch.git"
   },
-  "homepage" : "http://www.cacadu.eu/opensource",
-  "dependencies" : {
-    "async": "^2.x",
-    "elasticsearch" : "^12.x",
-    "data-elevator": "^2.x"
+  "homepage": "http://www.cacadu.eu/opensource",
+  "dependencies": {
+    "elasticsearch": "^16.7.2",
+    "async": "^3.2.1",
+    "data-elevator": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.1"
   },
   "engines": {
-    "node": ">=5.0.0"
+    "node": ">=12.10.0"
   }
 }

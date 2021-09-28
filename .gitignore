@@ -2,5 +2,8 @@
 node_modules/
 logs/*.log
 data-elevator/
+tmp/
 _data-elevator-test/
 _data-elevator-test-config.js
+bin/.DS_Store
+.DS_Store
