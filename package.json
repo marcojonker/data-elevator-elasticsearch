@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-elasticsearch",
-  "version": "4.0.0",
+  "version": "5.0.1",
   "description": "Flexible utility for managing migrations of elasticsearch data sources",
   "main": "elevator.js",
   "bin": {
@@ -53,9 +53,9 @@
   },
   "homepage": "http://www.cacadu.eu/opensource",
   "dependencies": {
-    "elasticsearch": "^16.7.2",
+    "@elastic/elasticsearch": "^8.14.0",
     "async": "^3.2.1",
-    "data-elevator": "^4.0.0"
+    "data-elevator": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0",

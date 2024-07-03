@@ -1,9 +1,8 @@
 var config = {
     levelControllerConfig: {
-       index: "test",
-       typeName: 'data_elevator',
+       index: "data_elevator",
        connectionOptions: {
-           host: "localhost:9200"
+           node: "http://localhost:9200"
        }
     }
 }

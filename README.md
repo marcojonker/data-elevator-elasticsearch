@@ -43,9 +43,8 @@ node ./data-elevator/elevator help
 var config = {
     levelControllerConfig: {
         index: null,
-        typeName: null,
         connectionOptions: {
-            host: null
+            node: null
         }
     }
 }
