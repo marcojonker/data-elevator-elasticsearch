@@ -4,6 +4,10 @@ The data elevator elasticsearch is an easy to use and very flexible utility for 
 
 Storing the current migration level in a database brings advantages when a project shares its data source with multiple running instances of a project. For example when multiple developers working with one database or the project runs on multiple servers.
 
+# Compatible data sources #
+
+* Elasticsearch 8
+
 # QUICKSTART #
 
 **STEP 1:** Install
