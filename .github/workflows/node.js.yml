@@ -24,9 +24,6 @@ jobs:
     services:
       elasticsearch:
         image: docker.elastic.co/elasticsearch/elasticsearch:8.14.1
-        env:
-          - xpack.security.enabled: false
-          - discovery.type: single-node
         ports:
           - 9200:9200
           - 9300:9300        
