@@ -1,4 +1,4 @@
-var config = {
+const config = {
     levelControllerConfig: {
        index: "test",
        typeName: 'data_elevator',
