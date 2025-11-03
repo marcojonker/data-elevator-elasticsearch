@@ -1,6 +1,6 @@
 {
   "name": "data-elevator-elasticsearch",
-  "version": "4.0.0",
+  "version": "6.0.0",
   "description": "Flexible utility for managing migrations of elasticsearch data sources",
   "main": "elevator.js",
   "bin": {
@@ -31,8 +31,8 @@
     "database"
   ],
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha",
-    "lint": "./node_modules/.bin/eslint ./lib"
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint ./lib ./test"
   },
   "bugs": "https://github.com/marcojonker/data-elevator-elasticsearch/issues/",
   "license": "MIT",
@@ -53,15 +53,15 @@
   },
   "homepage": "http://www.cacadu.eu/opensource",
   "dependencies": {
-    "elasticsearch": "^16.7.2",
-    "async": "^3.2.1",
-    "data-elevator": "^4.0.0"
+    "elasticsearch": "^16.7.3",
+    "async": "^3.2.6",
+    "data-elevator": "^6.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "mocha": "^9.1.1"
+    "eslint": "^9.39.0",
+    "mocha": "^11.7.4"
   },
   "engines": {
-    "node": ">=12.10.0"
+    "node": ">=18"
   }
 }
